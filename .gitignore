@@ -1,0 +1,11 @@
+.idea/
+.vscode/
+*.log
+target/
+node_modules/
+dist/
+__pycache__/
+.venv/
+ml-service/models/*.joblib
+ml-service/models/*.keras
+ml-service/data/*.csv

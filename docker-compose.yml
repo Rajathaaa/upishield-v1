@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: upishield-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: upishield
+      POSTGRES_USER: upi
+      POSTGRES_PASSWORD: upi_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - upishield_pgdata:/var/lib/postgresql/data
+
+volumes:
+  upishield_pgdata:
