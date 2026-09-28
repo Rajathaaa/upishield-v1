@@ -1,6 +1,6 @@
-# UPIShield V1 — Simple UPI Fraud Detection System
+# UPIShield V1 — UPI Fraud Detection System
 
-A student-friendly, end-to-end fraud detection project:
+End-to-End fraud detection project:
 
 Angular
   -> Spring Boot REST API
